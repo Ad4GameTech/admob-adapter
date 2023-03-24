@@ -1,5 +1,4 @@
 # admob-adapter
-
 **Features**
 
  Banner
