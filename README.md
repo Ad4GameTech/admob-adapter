@@ -33,7 +33,7 @@ dependencies {
 
 **GDPR Compliance**
 
-If you are not using any Consent Management Platform to handle privacy issues and managing user consent with your own solution, you have to inform admob mediation and mediation partners about the consent. The following code snippet is sample for gdpr consent usage for admob mediation. If you already have the snippet like below you need to add all these extras bundles for the reklamup custom event adapter as well.
+If you are not using any Consent Management Platform to handle privacy issues and managing user consent with your own solution, you have to inform admob mediation and mediation partners about the consent. The following code snippet is sample for gdpr consent usage for admob mediation. If you already have the snippet like below you need to add all these extras bundles for the Ad4Game custom event adapter as well.
 
 ```
 AdRequest.Builder builder = new AdRequest.Builder();
@@ -41,7 +41,7 @@ Bundle extras = new Bundle();
 extras.putString("npa", "1");
 builder.addNetworkExtrasBundle(AdMobAdapter.class, extras);
 
-// Add this for Reklamup
+// Add this for Ad4Game
 builder.addNetworkExtrasBundle(type.equals("banner") ? AdmobCustomEventBanner.class :
                 type.equals("rewarded") ? AdmobCustomEventRewarded.class :
                         AdmobCustomEventInterstitial.class,
@@ -59,3 +59,4 @@ Class Name : You can use the following parameters depending on the ad unit forma
 
 Interstitial / Rewarded / Banner : com.ad4game.admobadapter
 Parameter : Ad4Game placement ids for each floor price provided by the Ad4Game team
+
