@@ -57,7 +57,5 @@ You need to add Ad4Game placements provided by the Ad4Game team to the mediation
 Custom Event screen parameters
 Class Name : You can use the following parameters depending on the ad unit format of the mediation group.
 
-Interstitial : com.ad4game.admobadapter
-Rewarded: com.ad4game.admobadapter
-Banner : com.ad4game.admobadapter
+Interstitial / Rewarded / Banner : com.ad4game.admobadapter
 Parameter : Ad4Game placement ids for each floor price provided by the Ad4Game team
