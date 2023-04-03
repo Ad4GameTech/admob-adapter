@@ -1,20 +1,25 @@
 # admob-adapter
+
+
 **Features**
 
- Banner
- Interstitial
- Rewarded
+ Banner / Interstitial / Rewarded
+ 
  
 **Requirements**
 
-Google Mobile Ads SDK 21.0.0 or higher
+Google Mobile Ads SDK 22.0.0 or higher
+
 Use Android Studio 3.2 or higher
+
 A minSdkVersion of 19 or higher
+
 A compileSdkVersion of 28 or higher
+
 
 **Installation**
 
-Import adapter into your app/game
+Import adapter into App / Game
 Add the following implementation dependency with the latest version of the adapter in the app-level build.gradle file:
 
 repositories {
@@ -29,6 +34,7 @@ dependencies {
 }
 // ...
 
+
 **Usage**
 
 **GDPR Compliance**
@@ -42,11 +48,10 @@ extras.putString("npa", "1");
 builder.addNetworkExtrasBundle(AdMobAdapter.class, extras);
 
 // Add this for Ad4Game
-builder.addNetworkExtrasBundle(type.equals("banner") ? AdmobCustomEventBanner.class :
-                type.equals("rewarded") ? AdmobCustomEventRewarded.class :
-                        AdmobCustomEventInterstitial.class,
+builder.addNetworkExtrasBundle(AdmobCustomEventManager.class,
         extras);
 ```
+
 
 **Configure mediation settings for your AdMob ad unit**
 You need to add Ad4Game placements provided by the Ad4Game team to the mediation configuration as waterfall ad source for your ad unit.
@@ -54,9 +59,12 @@ You need to add Ad4Game placements provided by the Ad4Game team to the mediation
 ![Alt text](./1679651879220.png)
 ![Alt text](./1679652018083.png)
 
+
 Custom Event screen parameters
+
 Class Name : You can use the following parameters depending on the ad unit format of the mediation group.
 
 Interstitial / Rewarded / Banner : com.ad4game.admobadapter
-Parameter : Ad4Game placement ids for each floor price provided by the Ad4Game team
+
+Parameter : Ad4Game Unit ID
 
