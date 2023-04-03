@@ -12,7 +12,7 @@ Google Mobile Ads SDK 22.0.0 or higher
 
 Use Android Studio 3.2 or higher
 
-A minSdkVersion of 19 or higher
+A minSdkVersion of 21 or higher
 
 A compileSdkVersion of 28 or higher
 
@@ -30,7 +30,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.google.android.gms:play-services-ads:21.4.0'
-    **implementation 'com.Ad4game:admobmanager:1.0.7'**
+    **implementation 'com.Ad4game:admobmanager:1.0.8'**
 }
 // ...
 
