@@ -8,7 +8,7 @@
  
 **Requirements**
 
-Google Mobile Ads SDK 21.0.0 or higher
+Google Mobile Ads SDK 22.0.0 or higher
 
 Use Android Studio 3.2 or higher
 
@@ -19,7 +19,7 @@ A compileSdkVersion of 28 or higher
 
 **Installation**
 
-Import adapter into your app/game
+Import adapter into App / Game
 Add the following implementation dependency with the latest version of the adapter in the app-level build.gradle file:
 
 repositories {
@@ -33,6 +33,7 @@ dependencies {
     **implementation 'com.Ad4game:admobmanager:1.0.7'**
 }
 // ...
+
 
 **Usage**
 
@@ -67,5 +68,5 @@ Class Name : You can use the following parameters depending on the ad unit forma
 
 Interstitial / Rewarded / Banner : com.ad4game.admobadapter
 
-Parameter : Ad4Game placement ids for each floor price provided by the Ad4Game team
+Parameter : Ad4Game Unit ID
 
