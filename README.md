@@ -1,17 +1,21 @@
 # admob-adapter
 
+
 **Features**
 
- Banner
- Interstitial
- Rewarded
+ Banner / Interstitial / Rewarded
  
- **Requirements**
+ 
+**Requirements**
 
 Google Mobile Ads SDK 21.0.0 or higher
+
 Use Android Studio 3.2 or higher
+
 A minSdkVersion of 19 or higher
+
 A compileSdkVersion of 28 or higher
+
 
 **Installation**
 
