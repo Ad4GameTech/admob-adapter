@@ -1,11 +1,12 @@
 # admob-adapter
+
 **Features**
 
  Banner
  Interstitial
  Rewarded
  
-**Requirements**
+ **Requirements**
 
 Google Mobile Ads SDK 21.0.0 or higher
 Use Android Studio 3.2 or higher
@@ -47,6 +48,7 @@ builder.addNetworkExtrasBundle(type.equals("banner") ? AdmobCustomEventBanner.cl
                         AdmobCustomEventInterstitial.class,
         extras);
 ```
+
 
 **Configure mediation settings for your AdMob ad unit**
 You need to add Ad4Game placements provided by the Ad4Game team to the mediation configuration as waterfall ad source for your ad unit.
