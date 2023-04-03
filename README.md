@@ -48,9 +48,7 @@ extras.putString("npa", "1");
 builder.addNetworkExtrasBundle(AdMobAdapter.class, extras);
 
 // Add this for Ad4Game
-builder.addNetworkExtrasBundle(type.equals("banner") ? AdmobCustomEventBanner.class :
-                type.equals("rewarded") ? AdmobCustomEventRewarded.class :
-                        AdmobCustomEventInterstitial.class,
+builder.addNetworkExtrasBundle(AdmobCustomEventManager.class,
         extras);
 ```
 
