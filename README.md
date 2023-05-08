@@ -64,7 +64,7 @@ Custom Event screen parameters
 
 Class Name : You can use the following parameters depending on the ad unit format of the mediation group.
 
-Interstitial / Rewarded / Banner : com.ad4game.admobadapter
+Interstitial / Rewarded / Banner : com.ad4game.admobadapter.AdmobCustomEventManager
 
 Parameter : Ad4Game Unit ID
 
