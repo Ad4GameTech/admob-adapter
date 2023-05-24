@@ -30,7 +30,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.google.android.gms:play-services-ads:21.4.0'
-    **implementation 'com.Ad4game:admobmanager:1.0.8'**
+    **implementation 'com.Ad4game:admobmanager:1.0.9'**
 }
 // ...
 
