@@ -8,7 +8,7 @@
  
 **Requirements**
 
-Google Mobile Ads SDK 22.0.0 or higher
+Google Mobile Ads SDK 20.0.0 or higher
 
 Use Android Studio 3.2 or higher
 
@@ -29,8 +29,8 @@ repositories {
 // ...
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.android.gms:play-services-ads:21.4.0'
-    **implementation 'com.Ad4game:admobmanager:1.1.0'**
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+    **implementation 'com.Ad4game:admobmanager:1.1.1'**
 }
 // ...
 
@@ -64,7 +64,7 @@ Custom Event screen parameters
 
 Class Name : You can use the following parameters depending on the ad unit format of the mediation group.
 
-Interstitial / Rewarded / Banner : com.ad4game.admobadapter.AdmobCustomEventManager
+Interstitial / Rewarded / Banner / Native : com.ad4game.admobadapter.AdmobCustomEventManager
 
 Parameter : Ad4Game Unit ID
 
