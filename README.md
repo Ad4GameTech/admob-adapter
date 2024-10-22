@@ -3,7 +3,7 @@
 
 **Features**
 
- Banner / Interstitial / Rewarded
+ Banner / Interstitial / Rewarded / Native
  
  
 **Requirements**
